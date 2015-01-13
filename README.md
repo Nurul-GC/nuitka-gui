@@ -22,22 +22,14 @@ nuitka-gui
 
 # Requisites:
 
-- [Python 2.x](https://www.python.org "Python Homepage")
-- [PyQt 4.x](http://www.riverbankcomputing.co.uk/software/pyqt/download "PyQt4 Homepage")
+- [Python 3.x](https://www.python.org "Python Homepage")
+- [PyQt 5.x](http://www.riverbankcomputing.co.uk/software/pyqt/download "PyQt5 Homepage")
 - [Nuitka](http://nuitka.net/pages/download.html "Nuitka's Downloads Homepage")
 
 # Help instructions:
 
-- Check the ToolBar buttons with all available Help for Nuitka (Requires Internet, and a PDF Viewer App).
 - The GUI is designed to copy the same behaviour and names of the CLI command parameters so the Doc fit both.
 
-# Accessibility:
-
-- If you wish to disable theme, skin, fonts, etc *(looks Ugly)* but use Accessibility
-- Run Nuitka-GUI as follows to use your current Desktop Accessibility technologies:
-```
-nuitka-gui.py --a11y
-```
 
 # Misc:
 
