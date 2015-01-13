@@ -9,7 +9,7 @@ Nuitka-GUI the Python 3 Code Translator, Binary Compiler and Bundler.
 # Try it !:
 
 ```
-wget -O - https://raw.githubusercontent.com/juancarlospaco/nuitka-gui/master/nuitka-gui.py | python
+wget -O - https://raw.githubusercontent.com/juancarlospaco/nuitka-gui/master/nuitka-gui.py | python3
 ```
 
 # Install Nuitka-GUI permanently on the system:
