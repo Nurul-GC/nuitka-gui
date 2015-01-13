@@ -5,6 +5,12 @@ Nuitka-GUI the Python 3 Code Translator, Binary Compiler and Bundler.
 
 ![ScreenShot](https://raw.githubusercontent.com/juancarlospaco/nuitka-gui/master/temp.jpg)
 
+- Python 3 + Qt 5, single-file, easy use, GUI for Nuitka Compiler point'n'click.
+- Pretty Colors for Logs and Standard Output and Log File on Temporary Folder.
+- Set its own Process name and show up on Process lists.
+- Updater Async Downloader with full Unicode support and download info.
+- 2 UX modes, Simple (ala Elementary) or Full (ala KDE)
+
 
 # Try it !:
 
@@ -35,3 +41,9 @@ nuitka-gui
 
 - OPTIONAL: [MS Windows/OsX users should download and install Ubuntu fonts](https://www.google.com/fonts#UsePlace:use/Collection:Ubuntu "Ubuntu fonts on Google Fonts") 
 - OPTIONAL: [MS Windows/OsX users should download and install Oxygen fonts](https://www.google.com/fonts#UsePlace:use/Collection:Oxygen "Oxygen fonts on Google Fonts") 
+
+
+# Donate:
+
+- [http://nuitka.net/pages/donations.html](http://nuitka.net/pages/donations.html)
+
