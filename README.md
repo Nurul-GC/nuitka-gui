@@ -37,12 +37,6 @@ nuitka-gui
 - The GUI is designed to copy the same behaviour and names of the CLI command parameters so the Doc fit both.
 
 
-# Misc:
-
-- OPTIONAL: [MS Windows/OsX users should download and install Ubuntu fonts](https://www.google.com/fonts#UsePlace:use/Collection:Ubuntu "Ubuntu fonts on Google Fonts") 
-- OPTIONAL: [MS Windows/OsX users should download and install Oxygen fonts](https://www.google.com/fonts#UsePlace:use/Collection:Oxygen "Oxygen fonts on Google Fonts") 
-
-
 # Donate:
 
 - [http://nuitka.net/pages/donations.html](http://nuitka.net/pages/donations.html)
