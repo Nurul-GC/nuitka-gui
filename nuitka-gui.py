@@ -46,10 +46,9 @@ from getopt import getopt
 from multiprocessing import cpu_count
 from subprocess import call, check_output
 from tempfile import gettempdir
-from urllib import request
 from webbrowser import open_new_tab
 
-from PyQt5.QtCore import QDir, QProcess, Qt, QUrl
+from PyQt5.QtCore import QProcess, Qt, QUrl
 from PyQt5.QtGui import QIcon
 from PyQt5.QtNetwork import (QNetworkAccessManager, QNetworkProxyFactory,
                              QNetworkRequest)
@@ -328,17 +327,17 @@ class MainWindow(QMainWindow):
         self.open_1 = QPushButton(
             QIcon.fromTheme("folder-open"), "", self, clicked=lambda:
                 self.target.setText(str(QFileDialog.getOpenFileName(
-                self, __doc__, os.path.expanduser("~"),
-                "Python (*.py);;Python for Windows (*.pyw);;All (*.*)")[0])))
+                    self, __doc__, os.path.expanduser("~"), """Python (*.py);;
+                    Python for Windows (*.pyw);;All (*.*)""")[0])))
         self.open_2 = QPushButton(
             QIcon.fromTheme("folder-open"), "", self, clicked=lambda:
                 self.t_icon.setText(str(QFileDialog.getOpenFileName(
-                self, __doc__, os.path.expanduser("~"),
-                "PNG (*.png);;JPG (*.jpg);;ICO (*.ico);;All (*.*)")[0])))
+                    self, __doc__, os.path.expanduser("~"),
+                    "PNG (*.png);;JPG (*.jpg);;ICO (*.ico);;All (*.*)")[0])))
         self.open_3 = QPushButton(
             QIcon.fromTheme("folder-open"), "", self, clicked=lambda:
                 self.outdir.setText(str(QFileDialog.getExistingDirectory(
-                self, __doc__, os.path.expanduser("~")))))
+                    self, __doc__, os.path.expanduser("~")))))
         self.l_icon = QLabel("Target Icon")
         g1vlay.addWidget(QLabel("<b>Target Python"), 0, 0)
         g1vlay.addWidget(self.target, 0, 1)
